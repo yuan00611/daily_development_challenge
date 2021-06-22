@@ -8,7 +8,7 @@ const WorkSect = styled.div`
     h1{
         font-family: Futura;
         color: #F9D574;
-        font-size: 30px;
+        font-size: 28px;
         
     }
 `

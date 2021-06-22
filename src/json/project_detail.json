@@ -1,0 +1,30 @@
+{
+  "data": [
+    
+    {
+      "id": 2,
+      "title": "name card2",
+      "intro": "Lorum Lorum Lorum Lorum",
+      "link": "https://yuan00611.github.io/",
+      "image_route": "./img/Abstract.png",
+      "tag": ["React", "name_card"],
+      "genre": ["UI"],
+      "tech_genre": ["React"],
+      "date": "06 / 21", 
+      "year": "2021"
+    },
+    {
+      "id": 1,
+      "title": "name card",
+      "intro": "Lorum Lorum Lorum Lorum",
+      "link": "https://yuan00611.github.io/",
+      "image_route": "./img/Abstract.png",
+      "tag": ["React", "name_card"],
+      "genre": ["UI"],
+      "tech_genre": ["React"],
+      "date": "06 / 20", 
+      "year": "2021"
+    }
+    
+  ]
+}
