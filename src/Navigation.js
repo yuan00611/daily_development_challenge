@@ -1,14 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Nav = styled.div`
+    a {
+        color: ${props => props.theme.primary};
+        text-decoration: none;
+        :hover {
+            color: #FFE59F;
+        }
+    }
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 40px;
     background-color: ${props => props.theme.background};
-    color: ${props => props.theme.primary};
+    
     font-family: Futura;
     font-size: 1.4em;
     font-weight: 500;
@@ -29,7 +37,7 @@ Nav.defaultProps = {
 function Navigation(){
     return(
         <Nav>
-            Debbie
+            <Link to="/"> Debbie </Link>
         </Nav>
     )
 }
