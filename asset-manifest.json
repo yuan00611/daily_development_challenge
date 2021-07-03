@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/daily_development_challenge/static/css/main.7fed484d.chunk.css",
-    "main.js": "/daily_development_challenge/static/js/main.ba983adb.chunk.js",
-    "main.js.map": "/daily_development_challenge/static/js/main.ba983adb.chunk.js.map",
-    "runtime-main.js": "/daily_development_challenge/static/js/runtime-main.3b253128.js",
-    "runtime-main.js.map": "/daily_development_challenge/static/js/runtime-main.3b253128.js.map",
-    "static/js/2.d8c8b26f.chunk.js": "/daily_development_challenge/static/js/2.d8c8b26f.chunk.js",
-    "static/js/2.d8c8b26f.chunk.js.map": "/daily_development_challenge/static/js/2.d8c8b26f.chunk.js.map",
-    "static/js/3.75955593.chunk.js": "/daily_development_challenge/static/js/3.75955593.chunk.js",
-    "static/js/3.75955593.chunk.js.map": "/daily_development_challenge/static/js/3.75955593.chunk.js.map",
+    "main.js": "/daily_development_challenge/static/js/main.d185b4f9.chunk.js",
+    "main.js.map": "/daily_development_challenge/static/js/main.d185b4f9.chunk.js.map",
+    "runtime-main.js": "/daily_development_challenge/static/js/runtime-main.ec49c33f.js",
+    "runtime-main.js.map": "/daily_development_challenge/static/js/runtime-main.ec49c33f.js.map",
+    "static/js/2.5ea5dce7.chunk.js": "/daily_development_challenge/static/js/2.5ea5dce7.chunk.js",
+    "static/js/2.5ea5dce7.chunk.js.map": "/daily_development_challenge/static/js/2.5ea5dce7.chunk.js.map",
+    "static/js/3.8785f407.chunk.js": "/daily_development_challenge/static/js/3.8785f407.chunk.js",
+    "static/js/3.8785f407.chunk.js.map": "/daily_development_challenge/static/js/3.8785f407.chunk.js.map",
     "index.html": "/daily_development_challenge/index.html",
     "static/css/main.7fed484d.chunk.css.map": "/daily_development_challenge/static/css/main.7fed484d.chunk.css.map",
-    "static/js/2.d8c8b26f.chunk.js.LICENSE.txt": "/daily_development_challenge/static/js/2.d8c8b26f.chunk.js.LICENSE.txt",
+    "static/js/2.5ea5dce7.chunk.js.LICENSE.txt": "/daily_development_challenge/static/js/2.5ea5dce7.chunk.js.LICENSE.txt",
     "static/media/logo.6265d923.svg": "/daily_development_challenge/static/media/logo.6265d923.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b253128.js",
-    "static/js/2.d8c8b26f.chunk.js",
+    "static/js/runtime-main.ec49c33f.js",
+    "static/js/2.5ea5dce7.chunk.js",
     "static/css/main.7fed484d.chunk.css",
-    "static/js/main.ba983adb.chunk.js"
+    "static/js/main.d185b4f9.chunk.js"
   ]
 }
