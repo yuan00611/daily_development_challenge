@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Switch location={location}>
-        <Route exact path="/" children={<Home />} />
+        <Route path="/daily_development_challenge" children={<Home />} />
         {
           projectData.data.map((d, i) => (
             <Route 

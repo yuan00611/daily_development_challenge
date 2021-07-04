@@ -37,7 +37,7 @@ Nav.defaultProps = {
 function Navigation(){
     return(
         <Nav>
-            <Link to="/"> Debbie </Link>
+            <Link to="/daily_development_challenge"> Debbie </Link>
         </Nav>
     )
 }
