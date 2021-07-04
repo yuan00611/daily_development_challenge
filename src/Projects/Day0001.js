@@ -67,7 +67,7 @@ const Circle = styled.div`
 `
 
 const MdWrapper = styled.div`
-
+    height: 300px;
 `
 
 Title.defaultProps = {
