@@ -1,8 +1,11 @@
 import React, {useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import gfm from 'remark-gfm';
+import rehypeHighlight from 'rehype-highlight'
 import styled from 'styled-components';
 import ProjectTitle from './ProjectTitle';
 import file from './Day0001.md';
+
 
 const NameCard = styled.div`
     width: 350px;
@@ -67,8 +70,31 @@ const Circle = styled.div`
 `
 
 const MdWrapper = styled.div`
-    height: 300px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    line-height: 24px;
+    code {
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        background-color: #eee;
+        margin: 2px;
+        padding: 0 6px;
+        border-radius: 3px;
+    }
 `
+
+const LessonTitle = styled.h1`
+    font-family: Futura;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #324158;
+`
+
 
 Title.defaultProps = {
     theme: {
@@ -96,14 +122,7 @@ function Day0001() {
             .then((res) => res.text())
             .then((text) => setMarkdown(text));
     }, []);
-
-    const content = `
-    ###👉position
-
-    * Five options can use: static, relative, absolute, fixed, and sticky
     
-    `;
-
     return(
         <div>
             <ProjectTitle id={1} title={`Name Card`} />
@@ -115,9 +134,9 @@ function Day0001() {
                 <Circle className="c1" ></Circle>
                 <Circle className="c2" ></Circle>
             </NameCard>
+            <LessonTitle> Learning Note </LessonTitle>
             <MdWrapper>
-                <ReactMarkdown source={content} />
-                <ReactMarkdown source={markdown} />
+                <ReactMarkdown children={markdown} linkTarget="_blank" remarkPlugins={[gfm]} rehypePlugins={[rehypeHighlight]}  />
             </MdWrapper>
         </div>
     )
