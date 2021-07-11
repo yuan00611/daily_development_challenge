@@ -27,6 +27,7 @@ function WorkList(){
                             date={d.date}
                             year={d.year}
                             image_route={d.image_route}
+                            cover_color = {d.cover_color}
                         />
                         </Link>
                     );

@@ -9,14 +9,13 @@ const WorkCard = styled.svg`
     }
     :hover #image{
         fill: #324158;
-        fill-opacity: 0.7;
+        fill-opacity: 0.8;
     }
     margin: 10px;
     max-width:350px;
     max-height:350px;
     font-family: Futura;
     .r{
-        fill: #C4C4C4;
         rx: 10;
     }
     #image{
@@ -26,7 +25,7 @@ const WorkCard = styled.svg`
     }
     div{
 
-        font-size: 22px;
+        font-size: 20px;
         color: white;
         text-align: left;
     }
@@ -35,25 +34,29 @@ const WorkCard = styled.svg`
         fill-opacity: 0;
         opacity: 0;
     }
+    image {
+        rx: 10;
+    }
     
 `
 
-function Work({id, title, intro, date, year, image_route}){
+function Work({id, title, intro, date, year, image_route, cover_color}){
     return(
         <WorkCard viewBox="-50 -50 440 400">
-            <rect className="r" x="-50" y="-25" width="440" height="83" />
+            <rect className="r" x="-50" y="-25" width="440" height="83" fill="#C4C4C4"/>
             <text x="180" y="30" textAnchor="middle" fontSize="28px" fontWeight="600" fill="#587CB4" >Day {id}</text>
             <rect x="5" y="-50" width="30" height="50" rx="13" fill="#587CB4" />
             <rect x="155" y="-50" width="30" height="50" rx="13" fill="#587CB4" />
             <rect x="305" y="-50" width="30" height="50" rx="13" fill="#587CB4" />
             
-            <rect className="r" x="-50" y="70" width="440" height="280" />
+            <rect className="r" x="-50" y="70" width="440" height="280" fill={cover_color} />
             <image href={image_route} x="-50" y="70" width="440" height="280" />
             
             <g id="intro">                    
                 <rect id="image" x="-50" y="70" width="440" height="280" />
-                <text x="180" y="110" textAnchor="middle" fontSize="26px" fontWeight="600" fill="#F9D574" >{title}</text>
-                <foreignObject x="-25" y="120" width="395" height="100">
+                <text x="180" y="180" textAnchor="middle" fontSize="26px" fontWeight="500" fill="#F9D574" >{title}</text>
+                <rect x="-30" y="200" width="380" height="1.5" fill="white" />
+                <foreignObject x="-25" y="210" width="395" height="100">
                     <div xmlns="http://www.w3.org/1999/xhtml">
                         {intro}
                     </div>

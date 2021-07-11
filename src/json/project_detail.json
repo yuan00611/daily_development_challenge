@@ -10,6 +10,7 @@
       "path": "/projects/2",
       "link": "https://yuan00611.github.io/",
       "image_route": "./img/Abstract.png",
+      "cover_color": "white",
       "tag": ["React", "name_card"],
       "genre": ["UI"],
       "tech_genre": ["React"],
@@ -18,16 +19,17 @@
     },
     {
       "id": 1,
-      "title": "name card",
-      "intro": "Lorum Lorum Lorum Lorum",
+      "title": "Name Card",
+      "intro": "Implemented simple name card with css and micro-interaction",
       "component": "d01",
       "path": "/projects/1",
       "link": "https://yuan00611.github.io/",
-      "image_route": "./img/Abstract.svg",
+      "image_route": "./img/0001name_card.png",
+      "cover_color": "white",
       "tag": ["React", "name_card"],
       "genre": ["UI"],
       "tech_genre": ["React"],
-      "date": "06 / 20", 
+      "date": "07 / 10", 
       "year": "2021"
     }
     
