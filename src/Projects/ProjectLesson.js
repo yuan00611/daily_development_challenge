@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import styled from "styled-components";
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
+import {coldarkCold} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const LessonTitle = styled.h1`
     font-family: Futura;
@@ -20,6 +22,7 @@ const MdWrapper = styled.div`
     border-radius: 5px;
     line-height: 24px;
     code {
+        font-size: 14px;
         font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
         background-color: #eee;
         margin: 2px;
@@ -27,6 +30,18 @@ const MdWrapper = styled.div`
         border-radius: 3px;
     }
 `
+const codeBlock = {
+  code({node, inline, className, children, ...props}) {
+    const match = /language-(\w+)/.exec(className || '')
+    return !inline && match ? (
+      <SyntaxHighlighter style={coldarkCold} language={match[1]} PreTag="div" children={String(children).replace(/\n$/, '')} {...props} />
+    ) : (
+      <code className={className} {...props}>
+        {children}
+      </code>
+    )
+  }
+}
 
 function ProjectLesson ({ doc }) {
   const [markdown, setMarkdown] = useState("");
@@ -41,7 +56,7 @@ function ProjectLesson ({ doc }) {
       <div>
         <LessonTitle> Learning Note </LessonTitle>
         <MdWrapper>
-            <ReactMarkdown children={markdown} linkTarget="_blank" />
+            <ReactMarkdown children={markdown} components={codeBlock} linkTarget="_blank" />
         </MdWrapper>
       </div>
   );
