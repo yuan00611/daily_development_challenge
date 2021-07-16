@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/daily_development_challenge/static/css/main.7fed484d.chunk.css",
-    "main.js": "/daily_development_challenge/static/js/main.33590d3b.chunk.js",
-    "main.js.map": "/daily_development_challenge/static/js/main.33590d3b.chunk.js.map",
-    "runtime-main.js": "/daily_development_challenge/static/js/runtime-main.d596563f.js",
-    "runtime-main.js.map": "/daily_development_challenge/static/js/runtime-main.d596563f.js.map",
-    "static/js/2.98ed5e8c.chunk.js": "/daily_development_challenge/static/js/2.98ed5e8c.chunk.js",
-    "static/js/2.98ed5e8c.chunk.js.map": "/daily_development_challenge/static/js/2.98ed5e8c.chunk.js.map",
-    "static/js/3.d7271dc4.chunk.js": "/daily_development_challenge/static/js/3.d7271dc4.chunk.js",
-    "static/js/3.d7271dc4.chunk.js.map": "/daily_development_challenge/static/js/3.d7271dc4.chunk.js.map",
+    "main.js": "/daily_development_challenge/static/js/main.9bbc83eb.chunk.js",
+    "main.js.map": "/daily_development_challenge/static/js/main.9bbc83eb.chunk.js.map",
+    "runtime-main.js": "/daily_development_challenge/static/js/runtime-main.8f30dd67.js",
+    "runtime-main.js.map": "/daily_development_challenge/static/js/runtime-main.8f30dd67.js.map",
+    "static/js/2.aa5a66e1.chunk.js": "/daily_development_challenge/static/js/2.aa5a66e1.chunk.js",
+    "static/js/2.aa5a66e1.chunk.js.map": "/daily_development_challenge/static/js/2.aa5a66e1.chunk.js.map",
+    "static/js/3.9c55fc00.chunk.js": "/daily_development_challenge/static/js/3.9c55fc00.chunk.js",
+    "static/js/3.9c55fc00.chunk.js.map": "/daily_development_challenge/static/js/3.9c55fc00.chunk.js.map",
     "index.html": "/daily_development_challenge/index.html",
     "static/css/main.7fed484d.chunk.css.map": "/daily_development_challenge/static/css/main.7fed484d.chunk.css.map",
-    "static/js/2.98ed5e8c.chunk.js.LICENSE.txt": "/daily_development_challenge/static/js/2.98ed5e8c.chunk.js.LICENSE.txt",
+    "static/js/2.aa5a66e1.chunk.js.LICENSE.txt": "/daily_development_challenge/static/js/2.aa5a66e1.chunk.js.LICENSE.txt",
     "static/media/Day0001.2297b35f.md": "/daily_development_challenge/static/media/Day0001.2297b35f.md",
+    "static/media/Day0002.46a73ade.md": "/daily_development_challenge/static/media/Day0002.46a73ade.md",
     "static/media/logo.6265d923.svg": "/daily_development_challenge/static/media/logo.6265d923.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d596563f.js",
-    "static/js/2.98ed5e8c.chunk.js",
+    "static/js/runtime-main.8f30dd67.js",
+    "static/js/2.aa5a66e1.chunk.js",
     "static/css/main.7fed484d.chunk.css",
-    "static/js/main.33590d3b.chunk.js"
+    "static/js/main.9bbc83eb.chunk.js"
   ]
 }
