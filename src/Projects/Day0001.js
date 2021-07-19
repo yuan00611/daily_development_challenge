@@ -85,6 +85,10 @@ Circle.defaultProps = {
     }
   }
 
+const Ref = styled.p`
+    font-family: Futura;
+`
+
 function Day0001() {
     
     return(
@@ -98,6 +102,7 @@ function Day0001() {
                 <Circle className="c1" ></Circle>
                 <Circle className="c2" ></Circle>
             </NameCard>
+            <Ref>Follow the tutorial from <a href="https://hahow.in/courses/56189df9df7b3d0b005c6639/main?item=5a1e1745a2c4b000589dd24b" target="_blank" rel="noreferrer">Hahow - 動畫互動網頁程式入門 </a> </Ref>
             <ProjectLesson doc={file} />
         </div>
     )

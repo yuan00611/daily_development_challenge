@@ -1,7 +1,20 @@
 
 {
   "data": [
-    
+    {
+      "id": 3,
+      "title": "SVG Animation Testing",
+      "intro": "Using keyframe and simple transformation to test micro animation",
+      "component": "d03",
+      "path": "/projects/3",
+      "image_route": "./img/0002animation_test.png",
+      "cover_color": "white",
+      "tag": ["React", "SVG", "Animation"],
+      "genre": ["Animation", "SVG"],
+      "tech_genre": ["React", "SVG", "CSS Animation"],
+      "date": "07 / 16", 
+      "year": "2021"
+    },
     {
       "id": 2,
       "title": "Animation Testing",

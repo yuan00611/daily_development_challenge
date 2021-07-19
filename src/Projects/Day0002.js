@@ -159,7 +159,9 @@ const Block = styled.div`
 
 `
 
-
+const Ref = styled.p`
+    font-family: Futura;
+`
 
 
 function Day0002() {
@@ -173,6 +175,7 @@ function Day0002() {
                 <Block id="b4">Square</Block>
                 <Block id="b5">Skew</Block>
             </Box>
+            <Ref>Follow the tutorial from <a href="https://hahow.in/courses/56189df9df7b3d0b005c6639/main?item=5a1e1745a2c4b000589dd24b" target="_blank" rel="noreferrer">Hahow - 動畫互動網頁程式入門 </a> </Ref>
             <ProjectLesson doc={file} />
         </div>
     );
