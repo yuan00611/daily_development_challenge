@@ -4,7 +4,6 @@ import ProjectTitle from './ProjectTitle';
 import ProjectLesson from './ProjectLesson';
 import file from './Day0001.md';
 
-
 const NameCard = styled.div`
     width: 350px;
     height: 200px;
